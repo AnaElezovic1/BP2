@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="angazuje" directorySegmentName="seg_0" id="F8C25B0C-0F6E-CCAA-1ABB-05872D30301E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:38:47 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<sourcePk>48DD1270-5ED1-9DB2-95D0-40CB56AAE30F</sourcePk>
+<targetPk>5999A884-9562-960E-9E51-C176FE3B2DAC</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>BA4A46EF-CB2F-155C-31E8-4CF158E514AE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>49F89AF8-CA08-3C2C-2433-C040064D92BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

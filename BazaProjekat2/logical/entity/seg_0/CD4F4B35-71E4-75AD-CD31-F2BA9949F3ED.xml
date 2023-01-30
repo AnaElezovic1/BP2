@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD4F4B35-71E4-75AD-CD31-F2BA9949F3ED" name="Muzej">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:45:42 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdM" id="CF03A763-FDF2-9085-F979-C1A96A6C815F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:45:55 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NazM" id="8D4D337B-3EEE-2DE0-A801-ED7A78F22B95">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:46:08 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdrM" id="719379D7-C5A0-F2B0-49CE-8084DD943903">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:46:25 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdDr" id="A34F2364-0427-60D5-E71A-70186695C102">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:47:02 UTC</createdTime>
+<generatorID>A5F9CA23-C40E-0B0F-6078-D2A98088278E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<referedAttribute>266AE693-3782-6B0A-AEE8-E8039B2DF2B0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D5CD9ED-66A9-A2D0-2741-68C29D691C2E" name="Muzej PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:46:08 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF03A763-FDF2-9085-F979-C1A96A6C815F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

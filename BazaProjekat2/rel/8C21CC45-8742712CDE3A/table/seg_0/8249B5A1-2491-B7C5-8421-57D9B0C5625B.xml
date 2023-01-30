@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8249B5A1-2491-B7C5-8421-57D9B0C5625B" name="sastoji">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tim_IdT" id="7EEA0836-EE48-69FE-7787-5AD75397700C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE6E37F0-CC91-3F53-BF20-3871239DE60F" referredColumn="EF4AAE5D-F64A-3B2F-BBC4-0D4EB5B25A76"/>
+</associations>
+</Column>
+<Column name="Clan_Mbr" id="F126E520-1661-51A3-9736-34DEAD57F75D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93C33E48-3298-0343-04D5-CD43CA7094D7" referredColumn="B87B6239-B5B7-151D-C177-34DFAD1B2FBE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5510B7A-A7B4-258A-047E-C6113CFCD35B" name="sastoji_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EEA0836-EE48-69FE-7787-5AD75397700C"/>
+<colUsage columnID="F126E520-1661-51A3-9736-34DEAD57F75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94FE3AD1-4989-44FE-90E3-20646FC2F4E2" name="sastoji_Tim_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>58C7C0A5-477A-EACB-F2AF-3E1CAC1AFC59</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EEA0836-EE48-69FE-7787-5AD75397700C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5339C805-CE37-BABB-D50C-2B37EF8E7977" name="sastoji_Clan_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>58C7C0A5-477A-EACB-F2AF-3E1CAC1AFC59</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F126E520-1661-51A3-9736-34DEAD57F75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA4A46EF-CB2F-155C-31E8-4CF158E514AE" name="Vrsi se">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:38:04 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdTer" id="8F824E64-2BF6-C0D7-43E6-6E35A68C8E99">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:38:28 UTC</createdTime>
+<generatorID>50CDD9A1-BBFA-0895-34A2-775952127C94</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<referedAttribute>7897EFA6-D49D-61D9-2E47-10E9992CFB31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdI" id="4617EDB3-960A-6207-28DE-FA6922225C1E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:38:36 UTC</createdTime>
+<generatorID>A6F1A646-248A-E62C-563F-4E478C1DF2F2</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<referedAttribute>16128363-D538-6E33-81C6-A2FCAE2DDC80</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdT" id="FBFCBE2F-0505-4372-609D-6CC13E501104">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:39:04 UTC</createdTime>
+<generatorID>F8C25B0C-0F6E-CCAA-1ABB-05872D30301E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<referedAttribute>DDC13566-F81A-72B5-997E-B79E63FD14BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdA" id="FE2326FD-A0C6-77F8-91EB-1243142264EF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:51:09 UTC</createdTime>
+<generatorID>A6F1A646-248A-E62C-563F-4E478C1DF2F2</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<referedAttribute>24AE0E61-E0BD-A32E-CC45-B5272788135E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48DD1270-5ED1-9DB2-95D0-40CB56AAE30F" name="Vrsi se PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:38:32 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8F824E64-2BF6-C0D7-43E6-6E35A68C8E99</attributeRef>
+<attributeRef>4617EDB3-960A-6207-28DE-FA6922225C1E</attributeRef>
+<attributeRef>FE2326FD-A0C6-77F8-91EB-1243142264EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

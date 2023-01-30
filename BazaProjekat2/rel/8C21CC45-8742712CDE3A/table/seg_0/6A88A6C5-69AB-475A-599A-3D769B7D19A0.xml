@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A88A6C5-69AB-475A-599A-3D769B7D19A0" name="odnosi">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Riznica_IdR" id="1E29B7F9-264B-49A2-524E-F87CBE0B7C85">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBC373D0-099B-4474-FE6D-EFBA7E27DBDE" referredColumn="AECD6C9B-15F0-8632-A997-0CE0D782CB4B"/>
+</associations>
+</Column>
+<Column name="Riznica_IdM" id="34483815-711D-E29E-911D-AAF887EEC147">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBC373D0-099B-4474-FE6D-EFBA7E27DBDE" referredColumn="6F2338AD-25ED-C8DC-707A-DC062118E6F8"/>
+</associations>
+</Column>
+<Column name="Spisi_IdA" id="61C2F464-AFAA-BA8E-671A-0024D15D3A60">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C16FEFC1-E943-A1FB-C8F3-D3F25B2FB47B" referredColumn="2CDA9A65-7E25-3BE2-C8AC-0C7569A87DC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="407FD59D-47FA-D0BE-935A-79358DAE0BB8" name="odnosi_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E29B7F9-264B-49A2-524E-F87CBE0B7C85"/>
+<colUsage columnID="34483815-711D-E29E-911D-AAF887EEC147"/>
+<colUsage columnID="61C2F464-AFAA-BA8E-671A-0024D15D3A60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F3D829-2183-D1D8-0C0F-4E91845BD7C8" name="odnosi_Riznica_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>901E2D9A-9419-0476-FC54-3D7AD22EA88E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E29B7F9-264B-49A2-524E-F87CBE0B7C85"/>
+<colUsage columnID="34483815-711D-E29E-911D-AAF887EEC147"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1583312F-E08A-FB09-B25D-8DEB8384DD27" name="odnosi_Spisi_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>901E2D9A-9419-0476-FC54-3D7AD22EA88E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61C2F464-AFAA-BA8E-671A-0024D15D3A60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCB1B504-F942-4ECD-80C0-926B0FC230F9" name="Gradjevine">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>75699576-0568-B0EE-99B3-5D31A371ECBB</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdA" id="FE026CA6-557F-F5CD-50D4-81962809F07A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>238294C4-1E19-BDEB-25F7-6EA0A03AD92A</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0CD6838-D7A4-65B5-5075-E68142836186" referredColumn="94D70F95-7396-54A2-A2A9-1E803AF32785"/>
+</associations>
+</Column>
+<Column name="IdG" id="81A36D8E-75DD-BCE0-130B-944EA8FCAFCF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>3639E404-E5E4-BE70-583E-75AC46DE4541</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VisG" id="DE0E2904-C6F7-B7E6-3822-68934D77D19A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>B30DB112-D615-531C-FA88-4075ADE08E10</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SirG" id="F01455E9-11E1-AAAF-67B2-06BF340694F6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>65209925-4B8A-9366-C31F-3D928A7452EB</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DuzG" id="13122535-67B9-E1A2-F1F4-7235B67FB72B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>7BB09B65-7089-F1E4-9FE4-BC2B1EFA2F27</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,12,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD4F76D7-54A8-719A-764D-ADB071331677" name="Gradjevine_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>3BE49E5A-7D37-ED96-05FF-943D4F77EC56</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE026CA6-557F-F5CD-50D4-81962809F07A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26B6F7F5-8624-B9D1-3BDC-CB7DBE08AC7B" name="Gradjevine_PKv1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>9BB2E131-4A99-B8E2-4E22-B1FFD579E1DD</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81A36D8E-75DD-BCE0-130B-944EA8FCAFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="649C059F-7A96-6067-02BF-9E54D547E8C3" name="Gradjevine_Ist_Artefakt_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>2A9D5B16-595C-A1BE-E06B-3E699315D49C</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE026CA6-557F-F5CD-50D4-81962809F07A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

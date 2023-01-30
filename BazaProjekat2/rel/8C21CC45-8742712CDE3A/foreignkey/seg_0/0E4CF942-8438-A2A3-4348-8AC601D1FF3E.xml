@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E4CF942-8438-A2A3-4348-8AC601D1FF3E" containerWithKeyObject="142235BA-23A8-3B63-A2C7-0BE5943E1833" localFKIndex="F633E075-C2A9-7D42-A37E-F943A3D92200" name="Vrsi_se_Iskopavanje_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>A6F1A646-248A-E62C-563F-4E478C1DF2F2</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<referredTableLongName>Iskopavanje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D1956E5-3D2C-66B5-5B0A-6D18E017C735</referredTableID>
+<keyObject>6504AC8A-5C2C-F430-D2D7-D2E14DF6A321</keyObject>
+<referredKeyID>6504AC8A-5C2C-F430-D2D7-D2E14DF6A321</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdI,Ist_Artefakt_IdA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

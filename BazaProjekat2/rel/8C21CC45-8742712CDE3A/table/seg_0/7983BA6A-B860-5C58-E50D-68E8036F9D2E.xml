@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7983BA6A-B860-5C58-E50D-68E8036F9D2E" name="sacinjen">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Predmeti_IdA" id="D1047759-FEB7-07A5-D526-C3412D55A46F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4842E82C-B4E3-6195-2117-1E3321E898B1" referredColumn="3ABD1CF2-9F58-81F1-96AA-EE4B5066F2E1"/>
+</associations>
+</Column>
+<Column name="Materijali_IdM" id="281670B9-AFB7-923B-FE01-F1086AD1C22F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A2F2739-8D2F-70EF-49EA-E7E5402BFA97" referredColumn="E3D0B8D7-D400-DB52-7B63-0A6CFBFB9A15"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D26A350-9C71-3BF9-6CE0-5644B2A636E1" name="sacinjen_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1047759-FEB7-07A5-D526-C3412D55A46F"/>
+<colUsage columnID="281670B9-AFB7-923B-FE01-F1086AD1C22F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BFD609A-B944-D76F-B9CC-7611EB2BF18B" name="sacinjen_Predmeti_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>1834615B-6B96-DD52-958F-6BD67A877000</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1047759-FEB7-07A5-D526-C3412D55A46F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E6DC8A3-0822-01CA-D345-33BC90AA90FD" name="sacinjen_Materijali_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>1834615B-6B96-DD52-958F-6BD67A877000</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="281670B9-AFB7-923B-FE01-F1086AD1C22F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02CA59CE-7698-E988-0E2A-E5C28DD14112" name="Teren">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>828D4ED0-E63E-EABC-4321-E0F48E2D0A36</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTer" id="0F187876-D005-D341-271F-4C1578604214">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>7897EFA6-D49D-61D9-2E47-10E9992CFB31</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImeTe" id="385ACAFA-8FEE-30A2-E997-25C5C8404085">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>CCB2EC0D-0697-0ACE-0FBB-C9640CBD4C9C</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MestoTe" id="402A8D4C-C94C-C487-E734-10377B97657B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>5668E3D2-0AFE-D618-02F7-0DB7ACF7C677</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF2C506A-B83C-80EA-B3BB-AE51EACB2D4E" name="Teren_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>1F5DC7F2-9751-1763-4D11-74E8FDEF1EAB</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F187876-D005-D341-271F-4C1578604214"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

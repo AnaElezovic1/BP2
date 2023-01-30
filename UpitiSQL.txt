@@ -1,0 +1,192 @@
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(1,'Statua boga Ra','Hram Ra','Predmeti');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(2,'Prorocanstva','Piramida','Spisi');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(3,'Tanjir','Kuca1,Stari Grad','Predmeti');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(4,'Statua boga Ra','Hram Boginje Istar','Gradjevine');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(5,'Zapisi faraona','Piramida','Spisi');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(6,'Mumija','Piramida Velika','Predmeti');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(7,'Hram Kleopatre','Plato1 Nil','Gradjevine');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(8,'Svete knjige','Sfinka-Tunel','Spisi');
+
+Insert into ist_artefakt (ida,naza,mestoa,tipa
+) VALUES(9,'Mumija Ramzesa 2','Plato grobnica','Predmeti');
+
+Insert into arh_kompanija (arh_kompanija.idk,imek,adrk,arh_kompanija.arh_kompanija_idk
+) VALUES(1,'Arheology','Cairo',1);
+
+Insert into arh_kompanija (arh_kompanija.idk,imek,adrk,arh_kompanija.arh_kompanija_idk
+) VALUES(2,'Future','Cairo',2);
+
+Insert into arh_kompanija (arh_kompanija.idk,imek,adrk,arh_kompanija.arh_kompanija_idk
+) VALUES(3,'Alexandar','Aleksandrija',3);
+
+Insert into tim (idt,imet,arh_kompanija_idk
+) VALUES(1,'Tim1',1);
+
+
+Insert into tim (idt,imet,arh_kompanija_idk
+) VALUES(2,'Tim2',2);
+
+Insert into tim (idt,imet,arh_kompanija_idk
+) VALUES(3,'Tim3',3);
+
+Insert into tim (idt,imet,arh_kompanija_idk
+) VALUES(4,'Tim4',3);
+
+
+Insert into clan (mbr,imec,przc,godc
+) VALUES(11111,'Ana','Elezovic',22);
+
+Insert into clan (mbr,imec,przc,godc
+) VALUES(12345,'Milan','Milosevic',42);
+
+Insert into clan (mbr,imec,przc,godc
+) VALUES(22222,'Anja','Markovic',33);
+
+Insert into sastoji (tim_idt,clan_mbr
+) VALUES(1,11111);
+
+Insert into sastoji (tim_idt,clan_mbr
+) VALUES(2,12345);
+
+Insert into sastoji (tim_idt,clan_mbr
+) VALUES(3,22222);
+
+Insert into sastoji (tim_idt,clan_mbr
+) VALUES(4,11111);
+
+Insert into teren (idter,imete,mestote
+) VALUES(1,'Teren1','Plato Giza');
+
+
+Insert into teren (idter,imete,mestote
+) VALUES(2,'Teren12','Plato Giza');
+
+Insert into teren (idter,imete,mestote
+) VALUES(3,'Teren 3','Aleksandrija');
+
+Insert into iskopavanje (idi,ist_artefakt_ida
+) VALUES(1,1);
+
+Insert into iskopavanje (idi,ist_artefakt_ida
+) VALUES(2,2);
+
+Insert into iskopavanje (idi,ist_artefakt_ida
+) VALUES(3,3);
+
+
+Insert into vrsi_se (teren_idter,iskopavanje_idi,tim_idt,iskopavanje_ist_artefakt_ida
+) VALUES(1,1,1,1);
+
+Insert into vrsi_se (teren_idter,iskopavanje_idi,tim_idt,iskopavanje_ist_artefakt_ida
+) VALUES(2,2,2,2);
+
+Insert into drzava (iddr,ozndr
+) VALUES(1,'EGY');
+
+Insert into drzava (iddr,ozndr
+) VALUES(2,'EGY');
+
+Insert into muzej (idm,nazm,adrm,drzava_iddr
+) VALUES(1,'Muzej Egipat','Cairo',1);
+
+Insert into muzej (idm,nazm,adrm,drzava_iddr
+) VALUES(2,'Aleksandrijski','Aleksandrija',2);
+
+Insert into muzej (idm,nazm,adrm,drzava_iddr
+) VALUES(3,'Aleksandrijski1','Aleksandrija',1);
+
+Insert into muzej (idm,nazm,adrm,drzava_iddr
+) VALUES(4,'Aleksandrijski1','Aleksandrija',1);
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(1,'R1',1);
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(2,'R2',2);
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(2,'R2',3);
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(3,'R1',3);
+
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(2,'R1',1);
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(1,'R1',3);
+
+Insert into riznica (idr,oznr,muzej_idm
+) VALUES(1,'R1',4);
+
+Insert into predmeti (predmeti.ida,predmeti.idp
+) VALUES(1,1);
+
+Insert into predmeti (predmeti.ida,predmeti.idp
+) VALUES(3,6);
+
+Insert into spisi (ida,ids,temas
+) VALUES(2,8,'Zivot faraona');
+
+Insert into spisi (ida,ids,temas
+) VALUES(5,4,'Nastanak sveta');
+
+Insert into gradjevine (ida,idg,visg,sirg,duzg
+) VALUES(4,1,3456.34,2222.444,55555.67);
+
+Insert into gradjevine (ida,idg,visg,sirg,duzg
+) VALUES(7,2,366456.34,662222.444,575555.67);
+
+
+Insert into odnosi (riznica_idr,riznica_idm,spisi_ida
+) VALUES(1,1,2);
+
+Insert into odnosi (riznica_idr,riznica_idm,spisi_ida
+) VALUES(2,2,5);
+
+Insert into materijali (idm,imem
+) VALUES(1,'Kamen');
+
+Insert into materijali (idm,imem
+) VALUES(2,'Drvo');
+
+Insert into materijali (idm,imem
+) VALUES(3,'Bakar');
+
+Insert into materijali (idm,imem
+) VALUES(4,'Zlato');
+
+Insert into sacinjen (predmeti_ida,materijali_idm
+) VALUES(1,1);
+
+Insert into sacinjen (predmeti_ida,materijali_idm
+) VALUES(3,2);
+
+
+--pogled
+CREATE OR REPLACE VIEW Pogled
+(idm,idr) AS
+SELECT m.idm, COUNT(r.idr) as Broj
+FROM riznica r join muzej m on
+r.muzej_idm = m.idm(+)
+GROUP BY m.idm;
+
+select * from Pogled;
+
+

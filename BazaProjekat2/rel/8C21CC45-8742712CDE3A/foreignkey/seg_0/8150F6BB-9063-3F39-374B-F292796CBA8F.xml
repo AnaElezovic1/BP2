@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8150F6BB-9063-3F39-374B-F292796CBA8F" containerWithKeyObject="744DD73C-EF08-3ED3-B1DE-DFE10F0282AD" localFKIndex="4FF92DDC-709D-6AAD-3384-006D3B7D8E4D" name="Muzej_Drzava_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>A5F9CA23-C40E-0B0F-6078-D2A98088278E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<referredTableLongName>Drzava</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>72C902D9-DED1-05F5-CFC6-C50810FE6103</referredTableID>
+<keyObject>9CBDF5CC-B0EE-FF4E-4004-3A60EBDC2142</keyObject>
+<referredKeyID>9CBDF5CC-B0EE-FF4E-4004-3A60EBDC2142</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdDr</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

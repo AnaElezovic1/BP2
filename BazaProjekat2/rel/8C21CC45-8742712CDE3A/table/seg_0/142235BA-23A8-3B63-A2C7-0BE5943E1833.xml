@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="142235BA-23A8-3B63-A2C7-0BE5943E1833" name="Vrsi_se">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>BA4A46EF-CB2F-155C-31E8-4CF158E514AE</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Teren_IdTer" id="6B6A2135-6BD4-FF08-D811-904DAFA5DDBC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>8F824E64-2BF6-C0D7-43E6-6E35A68C8E99</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35121083-8A08-0008-0075-C5B423189E12" referredColumn="0F187876-D005-D341-271F-4C1578604214"/>
+</associations>
+</Column>
+<Column name="Iskopavanje_IdI" id="0201D133-B5D6-16F3-5BDF-AE57AE996F97">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>4617EDB3-960A-6207-28DE-FA6922225C1E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E4CF942-8438-A2A3-4348-8AC601D1FF3E" referredColumn="FB9F8D56-8EBF-E48E-F609-169F73D22E21"/>
+</associations>
+</Column>
+<Column name="Tim_IdT" id="1AAE13F8-A29D-115C-2EE6-4CED9A00BBEE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>FBFCBE2F-0505-4372-609D-6CC13E501104</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD06634A-C96D-394B-C121-EDE632156234" referredColumn="EF4AAE5D-F64A-3B2F-BBC4-0D4EB5B25A76"/>
+</associations>
+</Column>
+<Column name="Iskopavanje_Ist_Artefakt_IdA" id="D4A25404-0203-C674-869A-C05F15C5D32B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>FE2326FD-A0C6-77F8-91EB-1243142264EF</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E4CF942-8438-A2A3-4348-8AC601D1FF3E" referredColumn="AAA31E76-E6AC-B349-D628-9AC48612453A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="457C44D3-7C33-EDD9-3E78-97137A504721" name="Vrsi_se_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>48DD1270-5ED1-9DB2-95D0-40CB56AAE30F</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B6A2135-6BD4-FF08-D811-904DAFA5DDBC"/>
+<colUsage columnID="0201D133-B5D6-16F3-5BDF-AE57AE996F97"/>
+<colUsage columnID="D4A25404-0203-C674-869A-C05F15C5D32B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69956AFB-7546-1DB1-F292-6FFB7428D74C" name="Vrsi_se_Tim_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>F8C25B0C-0F6E-CCAA-1ABB-05872D30301E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AAE13F8-A29D-115C-2EE6-4CED9A00BBEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E1ED5C0-CA11-D312-008F-99942D86821D" name="Vrsi_se_Teren_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>50CDD9A1-BBFA-0895-34A2-775952127C94</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B6A2135-6BD4-FF08-D811-904DAFA5DDBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F633E075-C2A9-7D42-A37E-F943A3D92200" name="Vrsi_se_Iskopavanje_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>A6F1A646-248A-E62C-563F-4E478C1DF2F2</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0201D133-B5D6-16F3-5BDF-AE57AE996F97"/>
+<colUsage columnID="D4A25404-0203-C674-869A-C05F15C5D32B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

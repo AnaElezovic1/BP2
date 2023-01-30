@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B5D16DC-47A1-3979-AD79-2D56E78AF491" name="Riznica">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:47:22 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdR" id="1A4EE9FC-4629-E9E3-35C6-043B660EAF16">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:47:31 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OznR" id="A4F03BED-02A1-D466-8A9E-B314B7DCCCEC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:47:47 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdM" id="56D6D36D-FADC-63A5-1998-4626BCC10CE1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:48:40 UTC</createdTime>
+<generatorID>98820F54-3046-4B9A-B5DF-BCCCACD2C793</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<referedAttribute>CF03A763-FDF2-9085-F979-C1A96A6C815F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F36D77A-2B6F-BDC0-967C-D8BA2860AC2E" name="Riznica PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:47:46 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A4EE9FC-4629-E9E3-35C6-043B660EAF16</attributeRef>
+<attributeRef>56D6D36D-FADC-63A5-1998-4626BCC10CE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

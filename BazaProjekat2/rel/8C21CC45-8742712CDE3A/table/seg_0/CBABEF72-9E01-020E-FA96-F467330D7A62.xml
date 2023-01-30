@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBABEF72-9E01-020E-FA96-F467330D7A62" name="Spisi">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>73E05789-D1F3-CBF1-504D-AE04CBA2F051</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdA" id="2CDA9A65-7E25-3BE2-C8AC-0C7569A87DC9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>238294C4-1E19-BDEB-25F7-6EA0A03AD92A</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7717D288-E644-EE48-1820-DAF76E561118" referredColumn="94D70F95-7396-54A2-A2A9-1E803AF32785"/>
+</associations>
+</Column>
+<Column name="IdS" id="AB7B9289-A5A7-13BC-8845-FCDACB87C318">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>E05EC536-9A68-EE5B-0174-67129C80F0B2</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TemaS" id="53AA0531-D8F1-3551-8002-70B6673A26F9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>10301E60-DA7D-C84B-6595-2B36D5B96361</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0C0119D-6B2C-234B-DFFF-853B311F32AC" name="Spisi_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>3BE49E5A-7D37-ED96-05FF-943D4F77EC56</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CDA9A65-7E25-3BE2-C8AC-0C7569A87DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41D13F86-EA30-90CD-CEF7-F6C3F7AEEC7C" name="Spisi_PKv1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>07471209-FB96-1327-C10C-22D629D7995A</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7B9289-A5A7-13BC-8845-FCDACB87C318"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C0E2C20-18F0-4F89-C622-BCF3704DA3D2" name="Spisi_Ist_Artefakt_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>563478DF-5BC3-48E9-212B-D2AFDF7A785F</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CDA9A65-7E25-3BE2-C8AC-0C7569A87DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

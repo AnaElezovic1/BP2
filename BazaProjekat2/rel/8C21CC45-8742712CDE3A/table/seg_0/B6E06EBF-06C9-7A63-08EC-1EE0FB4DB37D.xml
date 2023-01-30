@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6E06EBF-06C9-7A63-08EC-1EE0FB4DB37D" name="Predmeti">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>3BA7AB67-FE15-2D0F-7813-AA540303F3BA</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdA" id="3ABD1CF2-9F58-81F1-96AA-EE4B5066F2E1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>238294C4-1E19-BDEB-25F7-6EA0A03AD92A</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E7127C1-A2E5-07DE-BA7E-2AAEF03CDA1A" referredColumn="94D70F95-7396-54A2-A2A9-1E803AF32785"/>
+</associations>
+</Column>
+<Column name="IdP" id="D2D6D5C5-E9CC-F263-A3C8-0B99BDDC3341">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>9798D885-1DA5-511D-F18F-142A94132F4A</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D10A3207-25B6-2969-CE73-F389BF7309DC" name="Predmeti_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>3BE49E5A-7D37-ED96-05FF-943D4F77EC56</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ABD1CF2-9F58-81F1-96AA-EE4B5066F2E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F176B080-1EEB-06B4-0548-34F2EB9CD9ED" name="Predmeti_PKv1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>165DE02F-338C-6A40-4CF3-88EF9A154861</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2D6D5C5-E9CC-F263-A3C8-0B99BDDC3341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9F05AB5-FE6D-E452-8B7C-6577916A0E3B" name="Predmeti_Ist_Artefakt_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>5A6498D1-354F-B258-9EF3-971CB168A4F4</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ABD1CF2-9F58-81F1-96AA-EE4B5066F2E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

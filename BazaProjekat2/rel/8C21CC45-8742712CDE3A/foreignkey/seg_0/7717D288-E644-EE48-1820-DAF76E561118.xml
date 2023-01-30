@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7717D288-E644-EE48-1820-DAF76E561118" containerWithKeyObject="CBABEF72-9E01-020E-FA96-F467330D7A62" localFKIndex="7C0E2C20-18F0-4F89-C622-BCF3704DA3D2" name="Spisi_Ist_Artefakt_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>563478DF-5BC3-48E9-212B-D2AFDF7A785F</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<referredTableLongName>Ist_Artefakt</referredTableLongName>
+<arc>E802F2D9-D037-B910-E36F-9B23D5995B4E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5291D9A-B302-5EF8-C921-929185527FE5</referredTableID>
+<keyObject>C714E243-6850-BB01-CA83-8DA2B4F4FD6A</keyObject>
+<referredKeyID>C714E243-6850-BB01-CA83-8DA2B4F4FD6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>19E26497-FBC9-D30C-2037-FBF3FC0997D0</discriminatorColumn>
+<discriminatorValue>Spisi</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

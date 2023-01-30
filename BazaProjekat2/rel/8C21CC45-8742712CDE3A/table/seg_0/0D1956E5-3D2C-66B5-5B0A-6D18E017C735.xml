@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D1956E5-3D2C-66B5-5B0A-6D18E017C735" name="Iskopavanje">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>E47ECB06-AA9C-7C53-5EE8-1E3DFBA9AF22</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdI" id="FB9F8D56-8EBF-E48E-F609-169F73D22E21">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>16128363-D538-6E33-81C6-A2FCAE2DDC80</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ist_Artefakt_IdA" id="AAA31E76-E6AC-B349-D628-9AC48612453A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>24AE0E61-E0BD-A32E-CC45-B5272788135E</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F609D3B4-7515-1531-A4DA-AF0EA514D25B" referredColumn="94D70F95-7396-54A2-A2A9-1E803AF32785"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6504AC8A-5C2C-F430-D2D7-D2E14DF6A321" name="Iskopavanje_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>B37AB8E1-0A5B-6CE4-CA90-4E105939CB31</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB9F8D56-8EBF-E48E-F609-169F73D22E21"/>
+<colUsage columnID="AAA31E76-E6AC-B349-D628-9AC48612453A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A11F2166-1FE4-21F1-19CC-12398524FE00" name="Iskopavanje_Ist_Artefakt_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:12:49 UTC</createdTime>
+<generatorID>01471555-A773-6D59-EB27-1E23B95B25E5</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA31E76-E6AC-B349-D628-9AC48612453A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

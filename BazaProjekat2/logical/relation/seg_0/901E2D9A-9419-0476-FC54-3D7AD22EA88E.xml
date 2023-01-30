@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="odnosi" directorySegmentName="seg_0" id="901E2D9A-9419-0476-FC54-3D7AD22EA88E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 11:53:11 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<engineerTo>
+<item key="8C21CC45-01B1-3C44-B655-8742712CDE3A" value="true"/>
+</engineerTo>
+<sourcePk>2F36D77A-2B6F-BDC0-967C-D8BA2860AC2E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9B5D16DC-47A1-3979-AD79-2D56E78AF491</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73E05789-D1F3-CBF1-504D-AE04CBA2F051</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

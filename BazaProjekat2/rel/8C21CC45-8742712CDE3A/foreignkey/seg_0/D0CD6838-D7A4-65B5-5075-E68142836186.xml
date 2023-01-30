@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0CD6838-D7A4-65B5-5075-E68142836186" containerWithKeyObject="CCB1B504-F942-4ECD-80C0-926B0FC230F9" localFKIndex="649C059F-7A96-6067-02BF-9E54D547E8C3" name="Gradjevine_Ist_Artefakt_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:00 UTC</createdTime>
+<generatorID>2A9D5B16-595C-A1BE-E06B-3E699315D49C</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<referredTableLongName>Ist_Artefakt</referredTableLongName>
+<arc>E802F2D9-D037-B910-E36F-9B23D5995B4E</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5291D9A-B302-5EF8-C921-929185527FE5</referredTableID>
+<keyObject>C714E243-6850-BB01-CA83-8DA2B4F4FD6A</keyObject>
+<referredKeyID>C714E243-6850-BB01-CA83-8DA2B4F4FD6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>19E26497-FBC9-D30C-2037-FBF3FC0997D0</discriminatorColumn>
+<discriminatorValue>Gradjevine</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

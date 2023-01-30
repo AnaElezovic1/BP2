@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C441380-FBA1-FF1A-B563-C459DF278531" name="poseduje">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Muzej_IdM" id="A5FAEF84-18D1-B3DA-07D7-272CEF5A9352">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5AE2B6E-6FA1-1133-01ED-CF2D78F50AF3" referredColumn="D81B8D57-298B-00E7-1BCD-1C6E706A05E1"/>
+</associations>
+</Column>
+<Column name="Predmeti_IdA" id="0F330420-F83B-0C74-CA2A-75BC18C8CC4F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD5BCE92-1E62-4D0A-4FAE-38B8902FA58C" referredColumn="3ABD1CF2-9F58-81F1-96AA-EE4B5066F2E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12F55233-3550-A9FE-3C68-EAA05CA41722" name="poseduje_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5FAEF84-18D1-B3DA-07D7-272CEF5A9352"/>
+<colUsage columnID="0F330420-F83B-0C74-CA2A-75BC18C8CC4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A33FA700-7381-854B-FD6E-1F5503700BD9" name="poseduje_Muzej_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>F06D1FB1-2744-BAFF-8BCF-016C6BCDC9E8</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5FAEF84-18D1-B3DA-07D7-272CEF5A9352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C1C9E86-C39D-2E5A-4994-07DE565F3207" name="poseduje_Predmeti_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-24 12:00:01 UTC</createdTime>
+<generatorID>F06D1FB1-2744-BAFF-8BCF-016C6BCDC9E8</generatorID>
+<ownerDesignName>BazaProjekat2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F330420-F83B-0C74-CA2A-75BC18C8CC4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
